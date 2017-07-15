@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_garments"
+            android:icon="@mipmap/ic_play"
+            android:title="Near Garments" />
+
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@mipmap/ic_play"
+            android:title="Near Hospital" />
+
+        <item
+            android:id="@+id/nav_fire_station"
+            android:icon="@mipmap/ic_play"
+            android:title="Near Fire Station" />
+
+    </group>
+
+</menu>

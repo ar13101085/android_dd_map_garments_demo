@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shadow_background"
+        >
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Samata Leather Complex Ltd "
+            android:textColor="@color/icons"
+            android:textSize="21sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:textColor="@color/primary_text"
+            android:text="Brands : Primark\nWorkers : 15000\nexport market : Rusia" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonTakeSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a survey"/>
+
+    <Button
+        android:id="@+id/buttonShowStreetView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Street View"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Near Fire Station"
+            android:padding="2dp"
+            android:id="@+id/nearFireStation"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Near Hospital"
+            android:id="@+id/nearHospital"/>
+    </LinearLayout>
+
+</LinearLayout>
